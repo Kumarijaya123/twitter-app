@@ -1,0 +1,119 @@
+.userbox {
+    background-color: #3d4e56;
+   
+    padding: 20px;
+    width: 370px;
+    height: 430px;
+    margin-left: 100px;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(241, 235, 235, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  .userbox:hover{
+    transform: scale(1.04) ;
+  }
+
+  .userbox1 {
+    background-color: #136d97;
+   
+    padding: 20px;
+    width: 370px;
+    height: 130px;
+    margin-left: -19px;
+    margin-top: -20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-img{
+    max-width: 60%;
+    margin-top: 22px;
+    margin-left: 64px;
+    
+  }
+  .username{
+    font-family: sans-serif;
+    font-weight:bolder;
+    color: rgb(239, 243, 243);
+    display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; 
+  height: 0px;
+  font-size: large;
+  letter-spacing: 0.6px;
+  }
+
+  .minor{
+    font-family:'Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif';
+    color: rgb(155, 157, 157);
+    display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; 
+  height: 50%;
+  }
+
+  .line{
+    background-color: #6a6b6b;
+    width: 370px;
+    height: 1.4px;
+    margin-left: -21px;
+    margin-top: -5px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(241, 235, 235, 0.1);
+  }
+
+  .number{
+    font-family: sans-serif;
+    font-weight:bolder;
+    color: rgb(239, 243, 243);
+   margin-left: 50px;
+   margin-top: 10px;
+  font-size: small;
+ 
+  }
+
+  .number2{
+    font-family: sans-serif;
+    font-weight:bolder;
+    color: rgb(239, 243, 243);
+ margin-left: 180px;
+  font-size: small;
+  letter-spacing: 1px;
+  }
+
+.follower{
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:bolder;
+  color: rgb(165, 167, 167);
+ margin-left: 227px;
+ margin-top: 10px;
+font-size: small;
+
+}
+.following{
+  position: absolute;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:bolder;
+  color: rgb(165, 167, 167);
+ margin-left: 27px;
+ margin-top: 5px;
+font-size: small;
+}
+.line1{
+  background-color: #686b6b;
+  width: 370px;
+  height: 1.4px;
+  margin-left: -20px;
+  margin-top: 220px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(241, 235, 235, 0.1);
+}
+.msg{
+  color: #39b4ee;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; 
+  margin-top: 20px;
+}

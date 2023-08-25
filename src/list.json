@@ -1,0 +1,25 @@
+[
+{
+    "profile": "Login"
+},
+
+{
+    "profile": "Registration"
+},
+
+{
+    "profile": "Tweet"
+},
+
+{
+    "profile": "Create"
+},
+
+{
+    "profile": "Edit"
+},
+
+{
+    "profile": "Delete"
+}
+]

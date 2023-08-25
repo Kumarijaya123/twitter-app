@@ -1,0 +1,19 @@
+.box{
+    background-color: #3d4e56;
+    padding: 85px;
+    width: 800px;
+    height: 30px;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(241, 235, 235, 0.1);
+}
+input[type="text1"]{
+    
+    padding:  0.6rem 14rem;
+    background-color: #586e78;
+    border-radius: 0.6rem;
+    font-size: large;
+  
+    border-color: #3d4e56;
+    
+  }
