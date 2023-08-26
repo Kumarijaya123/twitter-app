@@ -1,6 +1,6 @@
 .box{
     background-color: #3d4e56;
-    padding: 85px;
+    padding: 80px;
     width: 800px;
     height: 30px;
     margin-top: 40px;
@@ -8,12 +8,101 @@
     box-shadow: 0 2px 4px rgba(241, 235, 235, 0.1);
 }
 input[type="text1"]{
-    
-    padding:  0.6rem 14rem;
+    position: relative;
+    top:-60px;
+    margin-left: -70px;
+    padding:  0.7rem 15.5rem;
     background-color: #586e78;
     border-radius: 0.6rem;
     font-size: large;
-  
-    border-color: #3d4e56;
     
   }
+
+  .text-post{
+   
+  position: absolute;
+  margin-top: -97px;
+  margin-left: 647px;
+  color: #adb5b9;
+  font-weight: bolder;
+  font-size: large;
+  }
+.photo{
+    position: absolute;
+   margin-left: -680px;
+   margin-top: 15px;
+  background-color: var(--blue-color);
+ color:#adb5b9;
+ font-weight: bold;
+  border: 1px solid rgb(127, 125, 125);
+  padding: 10px 35px;
+  border-radius: 5rem;
+  font-size: 15px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+  
+.photo:hover {
+    transform: scale(1.04) ;
+    background-color: #586e78;
+  }
+
+  .video{
+    position: absolute;
+    margin-left: -520px;
+    margin-top: 15px;
+   background-color: var(--blue-color);
+  color:#adb5b9;
+  font-weight: bold;
+   border: 1px solid rgb(127, 125, 125);
+   padding: 10px 35px;
+   border-radius: 5rem;
+   font-size: 15px;
+   cursor: pointer;
+   transition: transform 0.3s ease-in-out;
+ }
+   
+ .video:hover {
+     transform: scale(1.04) ;
+     background-color: #586e78;
+   }
+   .attachment{
+    position: absolute;
+    margin-left: -365px;
+    margin-top: 15px;
+   background-color: var(--blue-color);
+  color:#adb5b9;
+  font-weight: bold;
+   border: 1px solid rgb(127, 125, 125);
+   padding: 10px 35px;
+   border-radius: 5rem;
+   font-size: 15px;
+   cursor: pointer;
+   transition: transform 0.3s ease-in-out;
+ }
+   
+ .attachment:hover {
+     transform: scale(1.04) ;
+     background-color: #586e78;
+   }
+  
+   .schedule{
+    position: absolute;
+    margin-left: -170px;
+    margin-top: 15px;
+   background-color: var(--blue-color);
+  color:#adb5b9;
+  font-weight: bold;
+   border: 1px solid rgb(127, 125, 125);
+   padding: 10px 35px;
+   border-radius: 5rem;
+   font-size: 15px;
+   cursor: pointer;
+   transition: transform 0.3s ease-in-out;
+ }
+   
+ .schedule:hover {
+     transform: scale(1.04) ;
+     background-color: #586e78;
+   }
+  
